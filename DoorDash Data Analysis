@@ -1,4 +1,5 @@
 #Analyzing DoorDash Sales Throughout the Year
+**To view the write up with graphs, please click [here](https://www.linkedin.com/posts/dianna-green-m-ed-663b1ba4_dataanalysis-marketinganalytics-doordash-activity-7260265853705752576-qEoU?utm_source=share&utm_medium=member_desktop).**
 
 It’s a typical Friday after a long week at work. Like most people I know, the last thing I want to do when I get home is make dinner. I turned to DoorDash, and this Friday was no different. I ordered my favorite—Black Garlic Ramen—and settled in to enjoy it. As I ate, I started to wonder: What do people typically order? And how much does income influence their spending? This curiosity sparked my project, where I set out to analyze DoorDash sales throughout the year. My motivation came from a simple act - ordering food. But it turned into a deeper exploration of consumer behavior. 
 
@@ -19,7 +20,6 @@ This data has been modified from an iFood job interview case study given by the 
 
 ##What the Data Revealed
 This process began with data cleaning- removing any inconsistencies and duplicates and ensuring the data was ready for analysis. Next, I transformed the data to visualize key trends, focusing on spending habits, customer demographics, and order frequency. Using Excel, I applied various statistical methods to analyze the data and create insightful visuals. One of the biggest surprises? The predictive power of the data- 70% accuracy in forecasting next year's spending based on past trends.
-
 
 
 Income Vs Total Spent
@@ -49,8 +49,6 @@ The chart reveals that wine and meats were the most popular items ordered. The f
 
 Total Spent Vs Marital Status
 What was the relationship status of these customers? Were people ordering more frequently when they were single and didn’t want to cook for themselves, or were orders higher among those with a partner?
-
-
 
 
 Bar chart displaying total spent vs martial status
