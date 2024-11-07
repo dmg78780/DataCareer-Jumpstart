@@ -1,0 +1,70 @@
+#Analyzing DoorDash Sales Throughout the Year
+
+It’s a typical Friday after a long week at work. Like most people I know, the last thing I want to do when I get home is make dinner. I turned to DoorDash, and this Friday was no different. I ordered my favorite—Black Garlic Ramen—and settled in to enjoy it. As I ate, I started to wonder: What do people typically order? And how much does income influence their spending? This curiosity sparked my project, where I set out to analyze DoorDash sales throughout the year. My motivation came from a simple act - ordering food. But it turned into a deeper exploration of consumer behavior. 
+
+In this article, I’ll share key insights from my analysis of DoorDash sales data. You’ll learn about spending behaviors across different age groups, seasonal trends in new user activity, and surprising findings about popular items ordered. By the end, you’ll have a clearer picture of how demographics influence food delivery choices.
+
+Using an online dataset, I was able to dig deeper into DoorDash trends.
+
+By analyzing the 2,000-row dataset in Excel, I found that:
+
+70% of spending variance can be explained by income levels
+New user sign-ups peak in January, then decline in November and December
+42% of users are between the ages of 35 and 50
+Wine is the top purchase across all age groups
+Married users spend almost double of single users.
+
+##Data Analysis
+This data has been modified from an iFood job interview case study given by the Brazilian equivalent of DoorDash, iFood. The data is 98% real, but slightly modified for educational purposes. Here is a link to find it. This dataset was perfect because it provided a variety of insights into spending behavior and customer demographics. 
+
+##What the Data Revealed
+This process began with data cleaning- removing any inconsistencies and duplicates and ensuring the data was ready for analysis. Next, I transformed the data to visualize key trends, focusing on spending habits, customer demographics, and order frequency. Using Excel, I applied various statistical methods to analyze the data and create insightful visuals. One of the biggest surprises? The predictive power of the data- 70% accuracy in forecasting next year's spending based on past trends.
+
+
+
+Income Vs Total Spent
+After analyzing the data, I created a scatterplot that shows the relationship between a person's income and their spending.
+
+
+Scatterplot displaying the customers income vs the amount they spent
+As you can see, there’s a general trend: as income increases, so does spending. I calculated a trend line with an r-value of 0.70, meaning that 70% of the variance in spending can be explained by income. With this level of accuracy, we can reasonably predict someone’s spending for the next year based on their income. We can observe that the majority of customer income falls within the $45,000-$80,000 range. However, there are a few outliers that don’t follow this pattern. This can help businesses understand their customer base better and tailor their marketing strategies better.
+
+Customer Age Range
+I was then curious about the age distribution of the customers. Were they around my age? Or were they older? What percentage did they make up of the total customers
+
+
+Bar chart displaying how many customers are in each age group
+
+Pie chart displaying each age group's share of the market percentage
+I first created a bar chart to show the number of people in each group, but I wanted a clearer representation of each group’s share of the total market. So, I then created a pie chart to visualize the percentages. As seen in the data, the 36-50 age group accounts for 42% of the market, with 855 customers. I was surprised that the 24-35 age range didn’t represent a larger portion. Perhaps their spending habits are influenced by career or lifestyle factors. Additionally, it's worth noting that there's no data for the 18-23 age group, which raises the question: Could this be due to a lack of usage or different spending behaviors? Were they excluded for specific reasons, such as limited access or different ordering trends? I would recommend to focus marketing strategies such as promotions on the 36-50 age group.
+
+Orders Type by Age Group
+I was curious to see what each age demographic typically ordered on the app. Were there any specific trends tied to age groups?
+
+
+
+
+Bar chart showing what customers are order vs their age
+The chart reveals that wine and meats were the most popular items ordered. The findings suggest that marketing efforts should focus on these categories to engage the target audience more effectively.
+
+Total Spent Vs Marital Status
+What was the relationship status of these customers? Were people ordering more frequently when they were single and didn’t want to cook for themselves, or were orders higher among those with a partner?
+
+
+
+
+Bar chart displaying total spent vs martial status
+This chart clearly illustrates that married individuals spent nearly twice as much as single individuals, eight times more than widowed individuals, and almost four times more than those who are divorced. Since married individuals spend more, offer family meal bundles or special deals on larger orders. Emphasize convenience and variety to suit busy households. Conversely, the single market has significant growth potential and could be a key focus for increasing market share.
+
+Frequency of Month Joined
+I wanted to know when people typically joined. Was there a certain time of year?
+
+
+Bar chart displaying user growth peaking in January
+As you can see, new users and orders peak in January, stabilize through the year, and declined in November and December. This pattern may indicate New Year's resolutions or post-holiday returns to routine eating habits.
+
+Summary
+In summary, I found that DoorDash is highly popular, with users spending $1.14 million in 2020 alone. We can predict next year's spending with 70% accuracy. New users and orders peak in January, stabilize through the year, and decline in November and December. Most users are aged 35 to 50, and wine tops the list as the most purchased item.
+
+Thank you for taking the time to read! If you have any questions, feel free to comment below and connect with me on LinkedIn Dianna Green M.Ed . I'm currently exploring new opportunities in data analytics -if you know of any openings, please reach out!
+
